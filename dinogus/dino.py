@@ -45,8 +45,6 @@ class Dino:		#prédéfinit les mouvements du dino
         self.texture_num = 0
         self.dy = 3
         self.gravity =  0.75
-        self.onground = True
-        self.jumping = False
         self.jump_stop = 10
         self.falling = False
         self.fall_stop = self.y
